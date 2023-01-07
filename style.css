@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image:url(./images/banner/banner1.png);
+    background-size: cover;
+}
+.header-text{
+    width:525px;
+    height: 400px;
+    margin-left: 650px;
+    padding-top: 200px;
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: right; 
+}
+.header-description{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-left: 60px;
+}
+.btn-primary{
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#FFFFFF;
+    background-color: #F15B22;
+    border-radius: 5px;
+    border:0;
+    cursor: pointer;
+    margin-left: 365px;
+    margin-top: 15px;
+}
+/* profile area styles */
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-item{
+    width: 500px;
+    padding: 50px;
+}
+.profile-item img{
+    width: 500px;
+    height: 500px;
+}
+.profile-item img{
+    background-image:radial-gradient(rgb(223, 153, 165),#fff,#fff)
+}
+
+.profile-title{
+    margin: 100px 100px 50px 0px;
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.profile-description{
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.font-awesome  .fa-check{
+    color:#16D887;
+    margin-right: 10px;
+
+}
+.font-awesome p{
+    margin-top: 10px;
+}
+
+
+/* my plan styles */
+
+.services-title{
+    text-align: center;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px
+}
+
+.services-item p{
+    margin-top: 10px;
+}
+
+/* footer */
+footer{
+    width:90%;
+    height: 200px;
+    background-image: linear-gradient(to right, #ff634782 ,#ffc0cb00), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin:20px auto;
+}
+.btn-footer{
+     margin-top:178px
+}
